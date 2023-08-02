@@ -1,0 +1,184 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: rgb(34 0 43);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  background-color: rgb(64 0 73);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+  color: chocolate;
+  font-size: 1.02rem;
+}
+.left {
+  font-size: 24px;
+}
+.selected {
+  box-sizing: content-box;
+  background-color: rgb(34 0 43);
+  width: 300px;
+  border-radius: 18px;
+  padding: 42px 22px;
+  padding-top: 12px;
+}
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 68px;
+  text-align: center;
+  margin: 80px;
+  color: #834eab;
+}
+.section-right {
+  display: flex;
+  height: auto;
+  margin: 10px 90px;
+  margin-right: 25vw;
+  padding: 25px;
+  padding-bottom: 35px;
+  justify-content: space-around;
+}
+.rightsec {
+  align-self: center;
+  padding: 12px;
+  font-style: oblique
+}
+.leftsec {
+  align-self: center;
+  padding: 12px;
+  font-style: oblique
+}
+.section-left {
+  display: flex;
+  height: auto;
+  margin: 0 90px;
+  margin-left: 25vw;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.section-right div :not(.certificate-title){
+  color: rgb(255, 255, 255);
+}
+.section-left div :not(.certificate-title){
+  color: rgb(204, 204, 204);
+}
+.certificate-title {
+  font-size: 32px;
+  color: rgb(173, 216, 230);
+  
+}
+.right-line {
+  height: 5px;
+  margin: 0 90px;
+  margin-right: 25vw;
+  background-color: #7c00a6;
+  border: 0px;
+}
+.left-line {
+  height: 5px;
+  margin: 0 90px;
+  margin-left: 25vw;
+  background-color: #7e7e7e;
+  border: 0px;
+}
+footer {
+  height: 200px;
+  background-color: rgb(64 0 73);
+}
+.footer-section {
+  margin: 8px 148px;
+  font-size: 23px;
+  padding-top: 23px;
+}
+
+.footer-links {
+  display: inline-flex;
+  margin: 0 148px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.footer-line {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 23px;
+  width: 90%;
+}
+.mail-icon {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}
+.half-content {
+  display: none;
+}
+
+.view-more {
+  text-align: center;
+  margin: 20px;
+  padding-top: 25px;
+}
+
+.view-more button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 249, 181);
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+
+.view-more button:hover {
+  color: chocolate;
+}
+.view-less {
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+}
+.view-less button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+
+.view-less button:hover {
+  color: chocolate;
+}
+
+.show {
+  display: flex;
+}

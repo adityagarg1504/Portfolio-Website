@@ -1,0 +1,175 @@
+
+        * {
+          margin: 0%;
+          padding: 0%;
+        }
+        body {
+          background-color: rgb(9, 9, 55);
+          color: white;
+          font-family: "Poppins", sans-serif;
+        }
+        nav {
+          align-items: center;
+          display: flex;
+          justify-content: space-around;
+          height: 70px;
+          background-color: rgb(31, 31, 79);
+        }
+        nav ul {
+          display: flex;
+          justify-content: center;
+        }
+        nav ul li {
+          list-style: none;
+          margin: 0px 23px;
+        }
+        nav ul li a{
+          text-decoration: none;
+          color: white;
+        }
+        nav ul li a:hover {
+          color: rgb(128, 128, 236);
+          font-size: 1.04rem;
+        }
+        .selected{
+          
+          box-sizing: content-box;
+          background-color: rgb(9, 9, 55);
+          width: 300px;
+          border-radius : 18px;
+          padding:42px 22px;
+          padding-top: 12px;
+        }
+        .left {
+          font-size: 1.5rem;
+        }
+        .firstsec {
+          display: flex;
+          justify-content: space-around;
+          margin: 50px 0;
+          align-items: center;
+        }
+        .firstsec > div {
+          width: 30%;
+        }
+        .leftsec {
+          font-size: 2.5rem;
+        }
+        .leftsec .btn{
+          margin: 30px 6px;
+          padding: 12px;
+          font-size: 16px;
+          font-family: monospace;     
+          background-color: #080758;
+          color: white;
+          border: 3px solid rgb(173, 168, 244);
+          border-radius: 6px;
+          cursor: pointer;
+        }
+
+        .rightsec img {
+          width: 80%;
+          margin: 50px 0;
+        }
+      
+        .purple {
+          color: rgb(160, 90, 226);
+        }
+        #element{
+          color: rgb(160, 90, 226);
+        }
+        .secondsec{
+          display: flex;
+          width: 80vw;
+          margin: auto;
+          height: auto;
+        }
+        main hr{
+          margin: 20px 0;
+          border: 0ch;
+          background-color: rgb(236, 190, 236);
+          height: 3px;
+        }
+        .secondsec div{
+          font-family: sans-serif;
+        }
+        
+        .readmore{
+        margin-bottom: 35px;
+        border: none;
+        background-color: transparent;
+        font-family: sans-serif;
+        font-size: inherit;
+        color: #707070;
+      }
+      .readmore:hover{
+        color: rgb(128, 128, 236);
+        cursor: pointer;
+      }
+      .aboutme p {
+        overflow: hidden;
+        width: 70%;
+        margin-top: 20px;
+        height: 92px;
+        color: #c1c5fd;
+      }
+      
+      .mid{
+        width: 80vw;
+          margin: auto;
+          height: auto;
+
+      }
+      .aboutimg{
+        width: 40%;
+        display: flex;
+        margin: auto;
+        padding-right: 190px;
+
+        justify-content: center;
+      }
+    .aboutimg img{
+      
+      max-width: 100%;
+      border-radius: 50%;
+      border: 4px solid #bfc3ee;
+      }
+      footer {
+        height: 200px;
+        background-color: rgb(12, 12, 66);
+      }
+    .footer-section{
+      margin: 8px 148px;
+      font-size: 23px;
+      padding-top: 23px;
+    }
+
+    .footer-links {
+      display: inline-flex;
+      margin:0 148px;
+    }
+
+    .footer-links ul {
+      list-style: none;
+
+    }
+    .footer-links a {
+      text-decoration: none;
+      color: #707070;
+    }
+
+    .footer-line {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 23px;
+      width: 90%;
+    }
+    .mail-icon {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    background-color: rgb(9, 9, 55);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(31, 31, 79);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(128, 128, 236);
+    font-size: 1.04rem;
+  }
+  .selected{
+    
+    box-sizing: content-box;
+    background-color: rgb(9, 9, 55);
+    width: 300px;
+    border-radius : 18px;
+    padding:42px 22px;
+    padding-top: 12px;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .section-one{
+    display: contents;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one h1{
+    margin: 50px 50%;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .section-one div{
+    display: flex;
+    justify-content: center;
+  }
+  .section-one img{
+    width: 720px;
+    justify-content: center;
+    
+  }
+  .purple {
+    color: rgb(160, 90, 226);
+  }
+  .white{
+    color: aliceblue;
+  }
+  .section-two{
+    height: auto;
+    margin: 50px;
+  
+  }
+  .section-two h2{
+    text-align: center;
+    margin: 20px;
+  }
+  .project-one p{
+    padding: 20px;
+    margin: 20px;
+    font-style: oblique
+  }
+  .images {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin: 35px 0;
+
+  }
+
+  .images img {
+    max-height: 400px; 
+    max-width: 100%; 
+  }
+  .weblink{
+    margin: 40px;
+  }
+  @keyframes rotate {
+      from {
+          transform: rotate(0deg);
+      }
+      to {
+          transform: rotate(360deg);
+      }
+  }
+  
+  .loading {
+      display: inline-block;
+      margin-left: 3px;
+      width: 11px;
+      height: 11px;
+      border: 4px solid rgba(160, 90, 226, 0.8);
+      border-radius: 50%;
+      border-top-color: transparent;
+      animation: rotate 1s linear infinite;
+  }
+  footer {
+    height: 200px;
+    background-color: rgb(12, 12, 66);
+  }
+  .footer-section{
+    margin: 8px 148px;
+    font-size: 23px;
+    padding-top: 23px;
+  }
+
+  .footer-links {
+    display: inline-flex;
+    margin:0 148px;
+  }
+
+  .footer-links ul {
+    list-style: none;
+
+  }
+  .footer-links a {
+    text-decoration: none;
+    color: #707070;
+  }
+
+  .footer-line {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 23px;
+    width: 90%;
+  }
+  .mail-icon {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}

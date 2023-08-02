@@ -1,0 +1,113 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aditya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="Certification.html">Certifications</a></li>
+            <li><a href="project.html">Project</a></li>   
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact me.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsec">
+        <div class="leftsec">
+          Hi, My name is <span class="purple">Aditya Garg</span>
+          <div>I am a Passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"
+              onclick="window.open('https://drive.google.com/file/d/1gYIxV-22IxWUyy5hct_E9F88IsCCsU-i/view?usp=sharing', '_blank')"
+              download>Download Resume</button>
+            <button class="btn" onclick="window.open('https://github.com/adityagarg1504', '_blank')">Visit
+              Github</button>
+          </div>
+        </div>
+        <div class="rightsec"><img src="img\pngwing.com.png" alt="img" /></div>
+      </section>
+      <section class="mid">
+        <hr>
+        <div>This all about me</div>
+        <h1>About</h1>
+      </section>
+      <section class="secondsec">
+        <div class="aboutme" id="aboutme">
+          <p id="aboutmee">Welcome to my portfolio! I'm Aditya Garg, a passionate software engineer specializing in
+            frontend development. I recently completed my B.Tech degree in Computer Engineering and have a strong
+            foundation in both backend and frontend technologies. <br> <br>
+
+            As a fresher in the industry, I bring a strong work ethic, a collaborative mindset, and a keen
+            problem-solving ability to every project I undertake. With a particular focus on frontend development, I
+            have gained valuable experience in creating engaging and user-friendly web interfaces using HTML, CSS, and
+            JavaScript. <br> <br>
+
+            During my college journey, I had the opportunity to work on a diverse range of projects, which not only
+            strengthened my technical skills but also honed my ability to bring ideas to life through intuitive and
+            visually appealing designs. I actively participated in coding competitions and took part in extracurricular
+            activities that allowed me to apply my frontend expertise in real-world scenarios. <br> <br>
+
+            In addition to my frontend proficiency, I am well-versed in technologies such as C++, Python, DBMS, and Data
+            Analysis. I have obtained certifications in these areas, further validating my knowledge and commitment to
+            continuous learning. <br> <br>
+
+            I am excited to embark on this professional journey, where I can combine my frontend expertise with my
+            broader software engineering skills. With a focus on delivering high-quality solutions and seamless user
+            experiences, I strive to make a positive impact through my work. <br> <br>
+
+            Thank you for visiting my portfolio. Please feel free to explore my projects, and don't hesitate to reach
+            out if you'd like to collaborate or discuss potential opportunities.
+          </p>
+          <br><button class="readmore" id="toggleBtn" onclick="toggleContent()">Read More</button><br>
+        </div>
+        <div class="aboutimg">
+          <img src="img\pic2.png" alt="myimg">
+        </div>
+      </section>
+      <footer>
+        <div class="footer-section">Portfolio</div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Certification.html">Certifications</a></li>
+            <li><a href="project.html">Project</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact me.html">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>For any query or feedback:</li>
+            <li><span class="mail-icon" onclick="sendEmail()">&#9993;</span>
+              Email: <a href="mailto:gaditya1504@gmail.com">gaditya1504@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-line">
+
+          Copyrights &#169; 2023 | All Rights Reserved </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+
+  </html>
